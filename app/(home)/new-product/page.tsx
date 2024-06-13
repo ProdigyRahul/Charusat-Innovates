@@ -286,7 +286,7 @@ const NewProduct = () => {
   }, [step]);
 
   const handleGoToProducts = () => {
-    window.location.href = "/my-products";
+    window.location.href = "/my-projects";
   };
 
   const submitAnotherProduct = () => {
