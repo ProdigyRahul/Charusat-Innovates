@@ -38,7 +38,7 @@ const DeleteProduct: React.FC<DeleteProductProps> = ({ productId }) => {
       setTimeout(async () => {
         try {
           await deleteProduct(productId);
-          router.push("/my-products");
+          router.push("/my-projects");
           router.refresh();
         } catch (error) {
           console.error(error);
